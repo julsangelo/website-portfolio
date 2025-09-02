@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme  {
+  --color-background: #ffffff;
+  --color-background-alt: #000000;
+  --color-foreground: #e7e7e7;
+  --color-foreground-alt: #e9e9e9;
+  --color-text: #000000;
+  --color-text-alt: #ffffff;
+  --color-primary-100: #ff6b00;
+  --color-secondary-100: #4682b4;
+  --breakpoint-xxs: 25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --color-background: #1e1e1e;
+  --color-background-alt: #ffffff;
+  --color-foreground: #000000;
+  --color-foreground-alt: #3a3939;
+  --color-text: #ffffff;
+  --color-text-alt: #000000;
+  }
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-inter);
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-vertical-dashed {
+  height: calc(100% + 20px);
+  width: 2px;
+  background-image: linear-gradient(to bottom, transparent 50%, var(--color-background-alt) 50%);
+  background-size: 100% 10px;
+}
+
+.custom-horizontal-dashed {
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(to right, transparent 50%, var(--color-background-alt) 50%);
+  background-size: 10px 100%;
+}
