@@ -63,7 +63,7 @@ const skill: Skill[] = [
 
 export const TechStackSection = () => {
     return (
-        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center">
+        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center" id="tech-stack">
             <div className="text-[30px] md:text-[38px] lg:text-[45px]/20 text-text font-extrabold">Tech Stack</div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] md:gap-[25px] lg:gap-[30px] w-full">
                 {skill.map((category, index) => {

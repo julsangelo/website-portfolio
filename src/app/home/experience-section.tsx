@@ -36,7 +36,7 @@ const experience: Experience[] = [
 
 export const ExperienceSection = () => {
     return (
-        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center">
+        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center" id="experience">
             <div className="text-[30px] md:text-[38px] lg:text-[45px]/20 text-text font-extrabold">Work Experience</div>
             <div className="flex flex-col gap-[20px]">
                 {experience.map((work, index) => {

@@ -27,7 +27,7 @@ const contact: Contact = {
 
 export const ContactSection = () => {
     return (
-        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center">
+        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center" id="contact">
             <div className="text-[30px] md:text-[38px] lg:text-[45px]/20 text-text font-extrabold">Contact</div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[30px] max-w-[1000px] items-center">
                 <div className="col-span-1 text-[15px] md:text-[16px] lg:text-[17px] text-center md:text-right font-semibold">

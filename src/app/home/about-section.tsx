@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const AboutSection = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-[20px] md:gap-[30px] lg:gap-[40px] items-center">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-[20px] md:gap-[30px] lg:gap-[40px] items-center" id="about">
             <div className="col-span-1 md:col-span-5 flex justify-center">
                 <div className="w-[70%] sm:w-[50%] md:w-[90%] aspect-square bg-linear-to-t from-primary-100 to-secondary-100 rounded-full flex justify-center items-center">
                     <Image src="/images/developer/paanoja-casual.jpg" alt="Julius Angelo Paano casual picture" width="500" height="500" className="w-[97%] aspect-square bg-background rounded-full"/>

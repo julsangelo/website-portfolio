@@ -165,7 +165,7 @@ export const ProjectSection = () => {
     };
 
     return (
-        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center">
+        <div className="flex flex-col gap-[20px] md:gap-[30px] lg:gap-[40px] items-center" id="project">
             <div className="text-[30px] md:text-[38px] lg:text-[45px]/20 text-text font-extrabold">
                 Projects
             </div>

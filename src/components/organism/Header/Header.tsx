@@ -6,7 +6,7 @@ import { Menu } from '@mui/icons-material';
 
 export const Header = () => {
   return (
-    <div className="sticky top-0 backdrop-blur-sm z-500 bg-background/80">
+    <div className="fixed w-full top-0 backdrop-blur-sm z-500 bg-background/80">
       <div className="h-[80px] flex max-w-[1320px] m-auto  justify-between items-center">
         <Link href="/" className="flex items-end pl-[20px]">
             <div className="bg-foreground flex justify-center items-center p-[10px] h-fit aspect-square rounded-lg">
@@ -17,7 +17,7 @@ export const Header = () => {
         <DesktopHeader />
         <MobileHeader />
         <div className="hidden md:flex">
-          <Button label="Resume" href="/contact"/>
+          <Button label="Resume" href="/files/Resume_Paano, Julius Angelo.pdf" target="_blank"/>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ const DesktopHeader = () => {
         Tech Stack
       </Link>
       <Link
-        href="#projects"
+        href="#project"
         className="text-[16px]/4.5 text-dark font-bold opacity-70 hover:opacity-100"
       >
         Projects
@@ -89,7 +89,7 @@ const MobileHeader = () => {
             Tech Stack
           </Link>
           <Link
-            href="#projects"
+            href="#project"
             className="text-[16px]/4.5 text-dark font-bold opacity-70 hover:opacity-100"
           >
             Projects
@@ -107,7 +107,7 @@ const MobileHeader = () => {
             Contact
           </Link>
         </div>
-        <Button label="Resume" href="/contact" />
+        <Button label="Resume" href="/files/Resume_Paano, Julius Angelo.pdf" target="_blank"/>
       </div>
     </div>
   );
