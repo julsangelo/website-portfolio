@@ -3,7 +3,7 @@ interface WorkCardProps {
     title: string;
     company: string;
     description: string;
-    isEven: Boolean
+    isEven: boolean
 }
 
 export const WorkCard = ({time, title, company, description, isEven} : WorkCardProps) => {

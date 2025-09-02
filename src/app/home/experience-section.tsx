@@ -5,7 +5,7 @@ interface Experience {
     workTitle: string;
     workCompany: string;
     workDescription: string;
-} [];
+};
 
 const experience: Experience[] = [
     {
