@@ -7,7 +7,7 @@ import { ContactSection } from "./home/contact-section";
 
 export default function Home() {
   return (
-    <div className="max-w-[1320px] m-auto px-[20px] pt-[80px] md:pt-[120px] lg:pt-[150px] pb-[40px] md:pb-[70px] lg:pb-[100px] flex flex-col gap-[60px] md:gap-[90px] lg:gap-[120px]">
+    <div className="max-w-[1320px] m-auto px-[20px] pt-[160px] md:pt-[200px] lg:pt-[230px] pb-[40px] md:pb-[70px] lg:pb-[100px] flex flex-col gap-[60px] md:gap-[90px] lg:gap-[120px]">
       <HeroSection/>
       <AboutSection/>
       <TechStackSection/>
